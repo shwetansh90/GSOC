@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(140, 140, 219);
+    text-align: center;
+    padding: 50px;
+}
+h1{
+    color: #333;
+}
+
+#game{
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+#message{
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #333;
+}
+.hidden {
+    display: none;
+}

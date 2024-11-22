@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Guess the Number</title>
+        
+        <!-- Correctly linking the external CSS file -->
+        <link rel="stylesheet" href="NumberGuessing.css">
+        
+    </head>
+    <body>
+
+        <h1>Guess The Number Game</h1>
+        <div class="game">
+            <p id="message"></p>
+            <input type="number" id="userInput" placeholder="Enter a number b/w 1 to 100">
+            <button id="guess" onclick="guessNumber()">Guess</button>
+            <button id="restartButton" class="hidden" onclick="restartGame()">Restart Game</button>
+        </div>
+        
+        <!-- Correctly linking the external JS file with defer to ensure it runs after HTML loads -->
+        <script src="NumberGuessing.js" defer></script>
+        
+    </body>
+</html>
